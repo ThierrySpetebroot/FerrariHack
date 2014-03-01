@@ -4,10 +4,61 @@
 	width: 960px;
 	position: relative;
 }
+
+.arrow-down img;{
+	box-shadow: 1px 1px #333;
+}
+
 h1{
 	font-size: 5em;	
-	font-family: arial,helvetica;
+	font-family: "Copperplate",helvetica;
+	line-height: 1em; 
 }
 .section{
 	text-align:center;
+}
+
+.firstPage h1{
+	font-family: "Antique";
+	margin-bottom: 0;
+}
+
+.firstPage p:first-child{
+	font-family: "Copperplate";	
+	text-align: center;	
+	margin-top: 20px;
+	margin-bottom: 0px;	
+}
+
+@font-face{
+	font-family: "Copperplate";
+	src: url("Copperplate.ttc");
+}
+
+@font-face{
+	font-family: "Antique";
+	src: url("fonts/antique_book_cover.otf");
+}
+
+.sottotitolo{
+	text-transform: uppercase;
+}
+
+.sottotitoloTaste{
+	color: red;
+}
+
+h2.footer{
+	margin-bottom: 0;
+}
+.footer {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	background: rgb(195,40,47);
+	min-width: 100%;
+}
+
+.footer img{
+	max-width: 100px;
 }
