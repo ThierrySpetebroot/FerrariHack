@@ -1,0 +1,1312 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"def",
+				"default"
+			],
+			[
+				"data",
+				"dataChanged"
+			],
+			[
+				"Par",
+				"PartitionDomLayout"
+			],
+			[
+				"un",
+				"unselection"
+			],
+			[
+				"max",
+				"maxViewedLevels"
+			],
+			[
+				"upda",
+				"update"
+			],
+			[
+				"pa",
+				"partitionDomLayout"
+			],
+			[
+				"defa",
+				"defaultView"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"visi",
+				"visitor"
+			],
+			[
+				"lay",
+				"layoutConfig"
+			],
+			[
+				"Pa",
+				"PartitionDomLayout"
+			],
+			[
+				"part",
+				"PartitionDomLayout"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"defaut",
+				"defaultView"
+			],
+			[
+				"defau",
+				"_defaultView"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"up",
+				"updateView"
+			],
+			[
+				"_cur",
+				"_currentDomainY"
+			],
+			[
+				"init",
+				"initData"
+			],
+			[
+				"arr",
+				"arraysEqual"
+			],
+			[
+				"do",
+				"domain"
+			],
+			[
+				"ori",
+				"originalContext"
+			],
+			[
+				"curre",
+				"currentFunc"
+			],
+			[
+				"wra",
+				"wrapperFunction"
+			],
+			[
+				"cur",
+				"currentFunc"
+			],
+			[
+				"cu",
+				"currentFunc"
+			],
+			[
+				"wrapp",
+				"wrapper"
+			],
+			[
+				"pro",
+				"propertyName"
+			],
+			[
+				"wrapped",
+				"wrappedFunction"
+			],
+			[
+				"origi",
+				"originalFunction"
+			],
+			[
+				"f",
+				"forof	Object Comprehension"
+			],
+			[
+				"ma",
+				"maxViewedLevels"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"pAR",
+				"PartitionView"
+			],
+			[
+				"I",
+				"is"
+			],
+			[
+				"on",
+				"onselectionChanged"
+			],
+			[
+				"sel",
+				"selection"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"row",
+				"rowi"
+			],
+			[
+				"hn",
+				"handlers"
+			],
+			[
+				"ha",
+				"handler"
+			],
+			[
+				"han",
+				"handlers"
+			],
+			[
+				"_",
+				"_handlerMap"
+			],
+			[
+				"_c",
+				"_currentScaleY"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"showE",
+				"showElementAlone"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"m",
+				"_maxViewedElements"
+			],
+			[
+				"_opa",
+				"_opacityRange"
+			],
+			[
+				"li",
+				"listing"
+			],
+			[
+				"l",
+				"listing"
+			],
+			[
+				"is",
+				"isFullscreen"
+			],
+			[
+				"valu",
+				"values"
+			],
+			[
+				"st",
+				"stopPropagation"
+			],
+			[
+				"old",
+				"oldElement"
+			],
+			[
+				"leve",
+				"level"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sho",
+				"showElementAlone"
+			],
+			[
+				"b",
+				"buttonTimeout"
+			],
+			[
+				"mou",
+				"mouseOverBtn"
+			],
+			[
+				"d",
+				"domain"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"for",
+				"forin	Array Comprehension"
+			],
+			[
+				"ch",
+				"children"
+			],
+			[
+				"upd",
+				"updateDisplayedElement"
+			],
+			[
+				"cure",
+				"currentScaleX"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"side",
+				"sidebar-wrapper"
+			],
+			[
+				"he",
+				"hexA"
+			],
+			[
+				"log",
+				"log_filename"
+			],
+			[
+				"more",
+				"moreOffset"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"hex",
+				"hexIpToString"
+			],
+			[
+				"devic",
+				"deviceId"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"ex",
+				"extension"
+			],
+			[
+				"ip",
+				"ipAddr"
+			],
+			[
+				"comma",
+				"commandHeader"
+			],
+			[
+				"login",
+				"loginError"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"hexI",
+				"hexIpToIntString"
+			],
+			[
+				"delete",
+				"deleteCommandToString"
+			],
+			[
+				"printTa",
+				"printTableHeader"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"cRe",
+				"cReq"
+			],
+			[
+				"cR",
+				"cReq"
+			],
+			[
+				"DB_",
+				"DB_HEADER_FIELDS"
+			],
+			[
+				"a",
+				"aRow"
+			],
+			[
+				"id",
+				"idField"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"IP",
+				"IP_ADDR_LENGTH"
+			],
+			[
+				"COMM",
+				"COMM_MODE"
+			],
+			[
+				"Comm",
+				"COMM_CIPHER"
+			],
+			[
+				"C",
+				"CipherFactory"
+			],
+			[
+				"by",
+				"byte_array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"html",
+				"htmlNode"
+			],
+			[
+				"prop",
+				"property"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"co",
+				"contentInput"
+			],
+			[
+				"node",
+				"nodes"
+			],
+			[
+				"new",
+				"newgraph"
+			],
+			[
+				"drag",
+				"dragStarted"
+			],
+			[
+				"ini",
+				"initialFixedStatus"
+			],
+			[
+				"fix",
+				"fixed"
+			],
+			[
+				"fixe",
+				"fixedInput"
+			],
+			[
+				"svg",
+				"svgG"
+			],
+			[
+				"clic",
+				"click_newnode"
+			],
+			[
+				"tet",
+				"textarea"
+			],
+			[
+				"htm",
+				"htmlNode"
+			],
+			[
+				"sv",
+				"svgLink"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n\n	<head>\n		<meta charset=\"utf-8\">\n\n		<title>reveal.js - The HTML Presentation Framework</title>\n\n		<meta name=\"description\" content=\"A framework for easily creating beautiful presentations using HTML\">\n		<meta name=\"author\" content=\"Hakim El Hattab\">\n\n		<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n		<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\" />\n\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n\n		<link rel=\"stylesheet\" href=\"css/reveal.min.css\">\n		<link rel=\"stylesheet\" href=\"css/theme/default.css\" id=\"theme\">\n\n		<!-- For syntax highlighting -->\n		<link rel=\"stylesheet\" href=\"lib/css/zenburn.css\">\n\n		<!-- If the query includes 'print-pdf', include the PDF print sheet -->\n		<script>\n			if( window.location.search.match( /print-pdf/gi ) ) {\n				var link = document.createElement( 'link' );\n				link.rel = 'stylesheet';\n				link.type = 'text/css';\n				link.href = 'css/print/pdf.css';\n				document.getElementsByTagName( 'head' )[0].appendChild( link );\n			}\n\n		</script>\n\n		<!--[if lt IE 9]>\n		<script src=\"lib/js/html5shiv.js\"></script>\n		<![endif]-->\n	</head>\n\n	<body>\n\n		<div class=\"reveal\">\n\n			<!-- Any section element inside of this container is displayed as a slide -->\n			<div class=\"slides\">\n				<section>\n					<h1>Welcome!</h1>\n					<h3>The italian way of life</h3>\n					<p>\n						<small>by <a href=\"http://www.cantineferrari.it\">Ferrari</a></small>\n					</p>\n				</section>\n\n				<section class=\"choiceSlide \">\n					<h2>Look at your wine</h2>\n				</section>\n\n				<section>\n\n				<section>\n					<h2>In quale città ti senti?</h2>\n\n				</section>\n				<section>\n					<p>\n						Trento\n					</p>\n				</section>\n				<section>\n					<p>\n						Roma\n					</p>\n				</section>\n\n				<section>\n					<p>\n						Milano\n					</p>\n				</section>\n\n				<section>\n					<p>\n						Napoli\n					</p>\n				</section>\n\n				<section>\n					<p>\n						Venezia\n					</p>\n				</section>\n\n				</section>\n\n				\n				<!-- Example of nested vertical slides -->\n				<section>\n					<section>\n						<h2>Vertical Slides</h2>\n						<p>\n							Slides can be nested inside of other slides,\n							try pressing <a href=\"#\" class=\"navigate-down\">down</a>.\n						</p>\n						<a href=\"#\" class=\"image navigate-down\">\n							<img width=\"178\" height=\"238\" src=\"https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png\" alt=\"Down arrow\">\n						</a>\n					</section>\n					<section>\n						<h2>Basement Level 1</h2>\n						<p>Press down or up to navigate.</p>\n					</section>\n					<section>\n						<h2>Basement Level 2</h2>\n						<p>Cornify</p>\n						<a class=\"test\" href=\"http://cornify.com\">\n							<img width=\"280\" height=\"326\" src=\"https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif\" alt=\"Unicorn\">\n						</a>\n					</section>\n					<section>\n						<h2>Basement Level 3</h2>\n						<p>That's it, time to go back up.</p>\n						<a href=\"#/2\" class=\"image\">\n							<img width=\"178\" height=\"238\" src=\"https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png\" alt=\"Up arrow\" style=\"-webkit-transform: rotate(180deg);\">\n						</a>\n					</section>\n				</section>\n\n				<section>\n					<h2>Slides</h2>\n					<p>\n						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href=\"http://slid.es\" target=\"_blank\">http://slid.es</a>.\n					</p>\n				</section>\n\n				<section>\n					<h2>Point of View</h2>\n					<p>\n						Press <strong>ESC</strong> to enter the slide overview.\n					</p>\n					<p>\n						Hold down alt and click on any element to zoom in on it using <a href=\"http://lab.hakim.se/zoom-js\">zoom.js</a>. Alt + click anywhere to zoom back out.\n					</p>\n				</section>\n\n				<section>\n					<h2>Works in Mobile Safari</h2>\n					<p>\n						Try it out! You can swipe through the slides and pinch your way to the overview.\n					</p>\n				</section>\n\n				<section>\n					<h2>Marvelous Unordered List</h2>\n					<ul>\n						<li>No order here</li>\n						<li>Or here</li>\n						<li>Or here</li>\n						<li>Or here</li>\n					</ul>\n				</section>\n\n				<section>\n					<h2>Fantastic Ordered List</h2>\n					<ol>\n						<li>One is smaller than...</li>\n						<li>Two is smaller than...</li>\n						<li>Three!</li>\n					</ol>\n				</section>\n\n				<section data-markdown>\n					<script type=\"text/template\">\n						## Markdown support\n\n						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).\n\n						```\n						<section data-markdown>\n						  ## Markdown support\n\n						  For those of you who like that sort of thing.\n						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).\n						</section>\n						```\n					</script>\n				</section>\n\n				<section id=\"transitions\">\n					<h2>Transition Styles</h2>\n					<p>\n						You can select from different transitions, like: <br>\n						<a href=\"?transition=cube#/transitions\">Cube</a> -\n						<a href=\"?transition=page#/transitions\">Page</a> -\n						<a href=\"?transition=concave#/transitions\">Concave</a> -\n						<a href=\"?transition=zoom#/transitions\">Zoom</a> -\n						<a href=\"?transition=linear#/transitions\">Linear</a> -\n						<a href=\"?transition=fade#/transitions\">Fade</a> -\n						<a href=\"?transition=none#/transitions\">None</a> -\n						<a href=\"?#/transitions\">Default</a>\n					</p>\n				</section>\n\n				<section id=\"themes\">\n					<h2>Themes</h2>\n					<p>\n						Reveal.js comes with a few themes built in: <br>\n						<a href=\"?#/themes\">Default</a> -\n						<a href=\"?theme=sky#/themes\">Sky</a> -\n						<a href=\"?theme=beige#/themes\">Beige</a> -\n						<a href=\"?theme=simple#/themes\">Simple</a> -\n						<a href=\"?theme=serif#/themes\">Serif</a> -\n						<a href=\"?theme=night#/themes\">Night</a> <br>\n						<a href=\"?theme=moon#/themes\">Moon</a> -\n						<a href=\"?theme=solarized#/themes\">Solarized</a>\n					</p>\n					<p>\n						<small>\n							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.\n						</small>\n					</p>\n				</section>\n\n				<section>\n					<h2>Global State</h2>\n					<p>\n						Set <code>data-state=\"something\"</code> on a slide and <code>\"something\"</code>\n						will be added as a class to the document element when the slide is open. This lets you\n						apply broader style changes, like switching the background.\n					</p>\n				</section>\n\n				<section data-state=\"customevent\">\n					<h2>Custom Events</h2>\n					<p>\n						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.\n					</p>\n					<pre><code data-trim contenteditable style=\"font-size: 18px; margin-top: 20px;\">\nReveal.addEventListener( 'customevent', function() {\n	console.log( '\"customevent\" has fired' );\n} );\n					</code></pre>\n				</section>\n\n				<section>\n					<section data-background=\"#007777\">\n						<h2>Slide Backgrounds</h2>\n						<p>\n							Set <code>data-background=\"#007777\"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.\n						</p>\n						<a href=\"#\" class=\"image navigate-down\">\n							<img width=\"178\" height=\"238\" src=\"https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png\" alt=\"Down arrow\">\n						</a>\n					</section>\n					<section data-background=\"https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png\">\n						<h2>Image Backgrounds</h2>\n						<pre><code>&lt;section data-background=\"image.png\"&gt;</code></pre>\n					</section>\n					<section data-background=\"https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png\" data-background-repeat=\"repeat\" data-background-size=\"100px\">\n						<h2>Repeated Image Backgrounds</h2>\n						<pre><code style=\"word-wrap: break-word;\">&lt;section data-background=\"image.png\" data-background-repeat=\"repeat\" data-background-size=\"100px\"&gt;</code></pre>\n					</section>\n				</section>\n\n				<section data-transition=\"linear\" data-background=\"#4d7e65\" data-background-transition=\"slide\">\n					<h2>Background Transitions</h2>\n					<p>\n						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.\n					</p>\n				</section>\n\n				<section data-transition=\"linear\" data-background=\"#8c4738\" data-background-transition=\"slide\">\n					<h2>Background Transition Override</h2>\n					<p>\n						You can override background transitions per slide by using <code>data-background-transition=\"slide\"</code>.\n					</p>\n				</section>\n\n				<section>\n					<h2>Clever Quotes</h2>\n					<p>\n						These guys come in two forms, inline: <q cite=\"http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations\">\n						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:\n					</p>\n					<blockquote cite=\"http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations\">\n						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would\n						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;\n					</blockquote>\n				</section>\n\n				<section>\n					<h2>Pretty Code</h2>\n					<pre><code data-trim contenteditable>\nfunction linkify( selector ) {\n  if( supports3DTransforms ) {\n\n    var nodes = document.querySelectorAll( selector );\n\n    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {\n      var node = nodes[i];\n\n      if( !node.className ) {\n        node.className += ' roll';\n      }\n    }\n  }\n}\n					</code></pre>\n					<p>Courtesy of <a href=\"http://softwaremaniacs.org/soft/highlight/en/description/\">highlight.js</a>.</p>\n				</section>\n\n				<section>\n					<h2>Intergalactic Interconnections</h2>\n					<p>\n						You can link between slides internally,\n						<a href=\"#/2/3\">like this</a>.\n					</p>\n				</section>\n\n				<section>\n					<section id=\"fragments\">\n						<h2>Fragmented Views</h2>\n						<p>Hit the next arrow...</p>\n						<p class=\"fragment\">... to step through ...</p>\n						<ol>\n							<li class=\"fragment\"><code>any type</code></li>\n							<li class=\"fragment\"><em>of view</em></li>\n							<li class=\"fragment\"><strong>fragments</strong></li>\n						</ol>\n\n						<aside class=\"notes\">\n							This slide has fragments which are also stepped through in the notes window.\n						</aside>\n					</section>\n					<section>\n						<h2>Fragment Styles</h2>\n						<p>There's a few styles of fragments, like:</p>\n						<p class=\"fragment grow\">grow</p>\n						<p class=\"fragment shrink\">shrink</p>\n						<p class=\"fragment roll-in\">roll-in</p>\n						<p class=\"fragment fade-out\">fade-out</p>\n						<p class=\"fragment highlight-red\">highlight-red</p>\n						<p class=\"fragment highlight-green\">highlight-green</p>\n						<p class=\"fragment highlight-blue\">highlight-blue</p>\n						<p class=\"fragment current-visible\">current-visible</p>\n						<p class=\"fragment highlight-current-blue\">highlight-current-blue</p>\n					</section>\n				</section>\n\n				<section>\n					<h2>Spectacular image!</h2>\n					<a class=\"image\" href=\"http://lab.hakim.se/meny/\" target=\"_blank\">\n						<img width=\"320\" height=\"299\" src=\"http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png\" alt=\"Meny\">\n					</a>\n				</section>\n\n				<section>\n					<h2>Export to PDF</h2>\n					<p>Presentations can be <a href=\"https://github.com/hakimel/reveal.js#pdf-export\">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>\n					<iframe id=\"slideshare\" src=\"http://www.slideshare.net/slideshow/embed_code/13872948\" width=\"455\" height=\"356\" style=\"margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px\" allowfullscreen> </iframe>\n					<script>\n						document.getElementById('slideshare').attributeName = 'allowfullscreen';\n					</script>\n				</section>\n\n				<section>\n					<h2>Take a Moment</h2>\n					<p>\n						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen\n						during a presentation.\n					</p>\n				</section>\n\n				<section>\n					<h2>Stellar Links</h2>\n					<ul>\n						<li><a href=\"http://slid.es\">Try the online editor</a></li>\n						<li><a href=\"https://github.com/hakimel/reveal.js\">Source code on GitHub</a></li>\n						<li><a href=\"http://twitter.com/hakimel\">Follow me on Twitter</a></li>\n					</ul>\n				</section>\n\n				<section>\n					<h1>THE END</h1>\n					<h3>BY Hakim El Hattab / hakim.se</h3>\n				</section>\n\n			</div>\n\n		</div>\n\n		<script src=\"lib/js/head.min.js\"></script>\n		<script src=\"js/reveal.min.js\"></script>\n\n		<script>\n\n			// Full list of configuration options available here:\n			// https://github.com/hakimel/reveal.js#configuration\n			Reveal.initialize({\n				controls: true,\n				progress: true,\n				history: true,\n				center: true,\n\n				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme\n				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none\n\n				// Parallax scrolling\n				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',\n				// parallaxBackgroundSize: '2100px 900px',\n\n				// Optional libraries used to extend on reveal.js\n				dependencies: [\n					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },\n					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },\n					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },\n					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },\n					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },\n					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }\n				]\n			});\n			var prevVrIndex = 0;\n			var prevHrIndex = 0;\n			Reveal.addEventListener('slidechanged', function(event){\n				\n				if(prevHrIndex === 2 && event.indexh === 3)\n					Reveal.slide(3,0);\n				\n				prevHrIndex = event.indexh;\n				prevVrIndex = event.indexv;\n			});\n				\n		</script>\n\n	</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 14831,
+			"file_write_time": 130381699059368549,
+			"settings":
+			{
+				"buffer_size": 14365,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"hea",
+				"Snippet: Markdown_header_(mdh1)"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"java",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"j",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"xht",
+				"Set Syntax: HTML"
+			],
+			[
+				"disp",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"ide",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"minif",
+				"Minify Javascript to file"
+			],
+			[
+				"mini",
+				"Minify Javascript to file"
+			],
+			[
+				"inify",
+				"Minify Javascript to file"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"mifi",
+				"Minify Javascript to file"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"lin",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"he",
+				"Snippet: Markdown_header_(mdh2)"
+			],
+			[
+				"snippet",
+				"Snippet: Markdown_header_(mdh1)"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ident",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ob",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"link",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"dis",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"di",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown PReview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"co",
+				"Coffee: Compile File"
+			],
+			[
+				"tog",
+				"Toggle Comment"
+			],
+			[
+				"javasc",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"to",
+				"Toggle Comment"
+			],
+			[
+				"toggle",
+				"Toggle Comment"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"commet",
+				"Toggle Comment"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fun",
+				"Snippet: Function"
+			],
+			[
+				"fu",
+				"Snippet: Function"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"che",
+				"Coffee: Check Syntax"
+			],
+			[
+				"chec",
+				"Coffee: Check Syntax"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pyto",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"c",
+				"Coffee: Check Syntax"
+			],
+			[
+				"syntax coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"coffescr",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"snippet G",
+				"Snippet: Get Elements"
+			],
+			[
+				"ite",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"snippet ",
+				"Snippet: Prototype"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"method",
+				"Snippet: Object Method"
+			],
+			[
+				"get",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/User/Source/GitHub/Ferrari/reveal.js-master/js/reveal.js",
+		"/C/Users/User/Source/GitHub/WebWBS/WebWBS.sublime-project",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/PropertyShortcut.coffee",
+		"/C/Users/User/Progetti/Graphier/#bozze/03 - Require/Model.HtmlNode.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/PartitionView.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/PartitionDomLayout.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/test/js/partitionGuiTest.main.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/PartitionGui.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/old.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/lib/resized.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/partitionChart.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/index.html",
+		"/C/Users/User/Source/GitHub/WebWBS/js/main/main.coffee",
+		"/C/Users/User/SkyDrive/Documenti/Linguaggi/Appunti",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/functionWrapper.coffee",
+		"/C/Users/User/Source/GitHub/test/test.turtle.owl",
+		"/C/Users/User/Downloads/owl.rdf",
+		"/C/Users/User/Source/GitHub/test/test.owl",
+		"/C/Users/User/test.owl",
+		"/C/Users/User/SkyDrive/Documenti/Sicurezza/appunti.md",
+		"/C/Users/User/Source/GitHub/WebWBS/test/partitionGuiTest.html",
+		"/C/Users/User/Source/GitHub/WebWBS/test/partitionViewTest.html",
+		"/C/Users/User/Source/GitHub/WebWBS/test/js/partitionViewTest.main.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/partitionDomLayout.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/test/js/partitionDomLayoutTest.main.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/test/partitionDomLayoutTest.html",
+		"/C/Users/User/Desktop/test.html",
+		"/C/Users/User/Source/GitHub/WebWBS/test/index.html",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/js/app/ApplicationContext.coffee",
+		"/C/Users/User/Desktop/test.js",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/js/app/Graph.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/vr-dom/js/main/main.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/vr-dom/js/app/partitionChart.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/vr-dom/index.html",
+		"/C/Users/User/Source/GitHub/WebWBS/js/app/window.coffee",
+		"/C/Users/User/Source/GitHub/WebWBS/.gitignore",
+		"/C/Users/User/Progetti/Sci Club Orsago/backup 2014-02-12 - hacking/ftp/Joomla/index.html",
+		"/C/Users/User/Progetti/WebWBS/source/js/app/fullscreen.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/index.html",
+		"/C/Users/User/Progetti/WebWBS/source/vr-dom/js/main/main-vr.coffee",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/css/main.css",
+		"/C/Users/User/Progetti/WebWBS/source/partition.html",
+		"/C/Users/User/Progetti/WebWBS/source/data/source.js",
+		"/C/Users/User/Progetti/WebWBS/source/js/main/main-vr.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/js/main/main-partition-vr-pure.js",
+		"/C/Users/User/Progetti/WebWBS/source/index-partition-vr.html",
+		"/C/Users/User/Progetti/WebWBS/source/js/main/main-partition-vr.coffee",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/server.php",
+		"/C/Users/User/Documents/Sophia Antipolis/Registrazione/Registration form Mediterranean Days Sophia Antipolis (March 12-14, 2014).html",
+		"/C/Users/User/Downloads/regione-veneto_limiti-amministrativi-poligonali-dei-comuni-della-regione-veneto.rdf",
+		"/C/Users/User/Progetti/WebWBS/source/css/sidebar.css",
+		"/C/Users/User/Progetti/WebWBS/source/js/app/sidebar.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/js/main/main.coffee",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/control_panel.inc.php",
+		"/C/Users/User/Progetti/WebWBS/#materiale/d3-partition-vr/raw/partition-icicle-zoom.html",
+		"/C/Users/User/Progetti/WebWBS/source/js/main/main-partition-vr.js",
+		"/C/Users/User/Progetti/WebWBS/source/css/style.css",
+		"/C/Users/User/Progetti/WebWBS/#materiale/d3-partition/partition.html",
+		"/C/Users/User/Progetti/WebWBS/#materiale/d3-partition-vr/d3-partition-vr.html",
+		"/C/Users/User/Progetti/WebWBS/#materiale/d3-partition/flare.json",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/js/main/main.coffee",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/index.html",
+		"/C/Users/User/Progetti/WebWBS/source/js/main.coffee",
+		"/C/Users/User/Progetti/WebWBS/source/js/lib/d3.layout.js",
+		"/C/Users/User/SkyDrive/Documenti/Appunti GIP - project management.md",
+		"/C/Users/User/SkyDrive/Documenti/Appunti GIP - programma completo.md",
+		"/C/Users/User/SkyDrive/Documenti/Appunti GIP - ultime 3 lezioni.md",
+		"/C/Users/User/SkyDrive/Documenti/Appunti GIP.md",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/js/main/visualize-main.coffee",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/visualizer.html",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/index.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/login.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/PBKDF2.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/log.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/js/waypoints-setup.js",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/readlog.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/app-log-view.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/echo.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/js/waypoints-setup.min.js",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/css/bootstrap.min.css",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/unsafe_server.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/password_hash.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/write_data.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/css/bootstrap.callout.css",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/css/bootstrap.callout.min.css",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/load_data.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/server-old.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/write_data.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/hash_pbkdf2.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/password_hash-alt.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/lib/CryptLib/bootstrap.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/lib/CryptLib/CryptLib.php",
+		"/C/Users/User/workspace/Java/Sicurezza-LocalServer/src/sicurezza/test/KeyEncryptionTest.java",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/php/intro.inc.php",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/css/login.css",
+		"/C/Users/User/Source/GitHub/Sicurezza/PublicServer/index.html",
+		"/C/Users/User/Progetti/Graphier/#test/#paralleli/04 - UI - TinyMCE/js/app/Graph.js",
+		"/C/Users/User/Progetti/Graphier/#bozze/03 - Require/Model.Node.coffee",
+		"/C/Users/User/Progetti/Graphier/#bozze/03 - Require/Model.Node.js",
+		"/C/Users/User/Progetti/Graphier/#bozze/boh/graphier.model.node-NoBackbone.coffee",
+		"/C/Users/User/Progetti/Graphier/#bozze/boh/graphier.model.node.coffee",
+		"/C/Users/User/Progetti/Graphier/#bozze/01/coffee/graphier.model.node-NoBackbone.coffee",
+		"/C/Users/User/Progetti/Graphier/#bozze/03 - Require/EventMapper.coffee",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/components/remote/js/core.js",
+		"/C/Users/User/Progetti/Graphier/#test/01/js/app/EventMapper.coffee",
+		"/C/Users/User/Progetti/Graphier/js/app/app.js",
+		"/C/Users/User/Progetti/Graphier/index.html",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/components/coffescript test/try.coffee",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/components/inheritance - John Resig/inheritance.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/traits.js",
+		"/C/Users/User/Progetti/MongoDB/hw2/2/soluzione.js",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/User/snippet-javascript-getset.sublime-snippet",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/template.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/index.html",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/style/js-graph-main.css",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/init.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/core.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/examples/2.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/examples/1.js",
+		"/C/Users/User/AppData/Roaming/Sublime Text 2/Packages/User/snippet-javascript-getset.xml",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/keyboard.js",
+		"/C/Users/User/Progetti/GraphVisualizer/#mine/js/config.js",
+		"/C/Users/User/Progetti/Distretto 2060/wp-config.php",
+		"/C/Users/User/Progetti/Distretto 2060/index.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"indexh",
+			"indexv",
+			"stack",
+			"previousVerticalIndex",
+			"previousSlide",
+			"indexhBefore",
+			"isdefined",
+			"imports",
+			"_chart",
+			"eventMapper",
+			"EventMapper",
+			"eventMapper",
+			"EventMapper",
+			"__super__",
+			"Node",
+			"current",
+			"_w",
+			"unselection",
+			"source.partitionView",
+			"partitionView",
+			"PartitionView",
+			"partitionView",
+			"onSelectionChanged",
+			"PartitionDomLayout",
+			"partitionView",
+			"PartitionView",
+			"partitionView",
+			"section",
+			"_this",
+			"@",
+			"PartitionDomLayout",
+			"source",
+			"SELECTION",
+			"selection",
+			"@selection",
+			"selection",
+			"unselection",
+			"resize",
+			"onselectionChanged",
+			"DomLayout",
+			"Layout",
+			"layout",
+			"_viewport",
+			"PartitionView",
+			"_chart",
+			"W",
+			"$",
+			"_chart",
+			"0",
+			"zoomout",
+			"_",
+			"_currentScaleY",
+			"updateSection",
+			"init",
+			"_data",
+			"naxY",
+			"height",
+			"Height",
+			"height",
+			"width",
+			"Width",
+			"width",
+			"left",
+			"minX",
+			"top",
+			"Top",
+			"top",
+			"Top",
+			"top",
+			"x",
+			"domain",
+			"interval",
+			"@",
+			"_",
+			"updateView",
+			"section",
+			"_x",
+			"_y",
+			"left",
+			"heigh",
+			"max",
+			"defaultView",
+			"Width",
+			"width",
+			"PartitionView",
+			"vis",
+			"PartitionDomLayout",
+			"PartitionLayout",
+			"selection",
+			"update",
+			"_currentScaleY",
+			"Section",
+			"section",
+			"_this",
+			"updateSection",
+			"update_Section",
+			"domain",
+			"calculateLevels",
+			"x",
+			"range",
+			"variante",
+			"unwrapped",
+			"wrapper",
+			"v",
+			"oFunction",
+			"oContext",
+			"wrapper",
+			"nContext",
+			"nFunction",
+			"$",
+			"section",
+			"Section",
+			"section",
+			"Section",
+			"section",
+			"be",
+			"ae",
+			"arraysEqual",
+			"arraysEquals",
+			"chart",
+			"width",
+			"range",
+			"updateView",
+			"footer",
+			"@",
+			"_this",
+			"d",
+			"currentScaleX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[list_item icon=\"road\"]\"$1\"[/list_item]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 14365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12582,
+								12582
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.820209246121,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4897.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
