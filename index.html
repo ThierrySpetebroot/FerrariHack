@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>fullPage.js plugin by Alvaro Trigo</title>
+	<title>Ferrari</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple" />
 	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full" />
@@ -24,26 +24,128 @@
 	
 	<script type="text/javascript" src="jquery.fullPage.js"></script>
 	<script type="text/javascript">
+		var cities = ["Trento", "Roma", "Venezia", "Milano", "Napoli"];
+
+		var currentSectionIndex = 0;
+		var currentCity = "Trento";
+		var currentCityIndex = 0;
+		var currentSituation = "Cena";
+
+		var setCity = function (city) {
+			switch(city) {
+				case "Roma": {
+					// Imposta slider Roma
+					$('#city-intro').html("<h1>Benvenuto a Roma (video)</h1>");
+
+					$('#situation .cena').html("<h1>Cena Romantica</h1>");
+					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
+					$('#situation .festa').html("<h1>Festa</h1>");
+					break;
+				}
+				case "Trento": {
+					// Imposta slider Roma
+					$('#city-intro').html("<h1>Benvenuto a Trento (video)</h1>");
+
+					$('#situation .cena').html("<h1>Cena Romantica</h1>");
+					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
+					$('#situation .festa').html("<h1>Festa</h1>");
+					break;
+				}
+				case "Venezia": {
+					// Imposta slider Roma
+					$('#city-intro').html("<h1>Benvenuto a Venezia (video)</h1>");
+
+					$('#situation .cena').html("<h1>Cena Romantica</h1>");
+					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
+					$('#situation .festa').html("<h1>Festa</h1>");
+					break;
+				}
+				case "Milano": {
+					// Imposta slider Roma
+					$('#city-intro').html("<h1>Benvenuto a Milano (video)</h1>");
+
+					$('#situation .cena').html("<h1>Cena Romantica</h1>");
+					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
+					$('#situation .festa').html("<h1>Festa</h1>");
+					break;
+				}
+				case "Napoli": {
+					// Imposta slider Roma
+					$('#city-intro').html("<h1>Benvenuto a Napoli (video)</h1>");
+
+					$('#situation .cena').html("<h1>Cena Romantica</h1>");
+					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
+					$('#situation .festa').html("<h1>Festa</h1>");
+					break;
+				}
+			}
+		}
+
+		// leave section handler
+		var onSectionLeave = function(index, direction) {
+			if(direction == 'down')
+				currentSectionIndex++;
+				switch(index) {
+					case 2:
+						// imposta città selezionata
+						setCity(currentCity);
+						break;
+				}
+			if(direction == 'up') {
+				currentSectionIndex--;
+			}
+		}
+
+		var onSlideLeave = function(anchorLink, index, slideIndex, direction) {
+			// TODO switch per (section) index
+			if(currentSectionIndex === 1) {
+				// city slider
+				if(direction === "right")
+					currentCityIndex++;
+				if(direction === "left")
+					currentCityIndex--;
+				
+				currentCity = cities[currentCityIndex % cities.length];
+			}
+		}
+
 		$(document).ready(function() {
 			$.fn.fullpage({
+				onLeave: onSectionLeave,
+				onSlideLeave: onSlideLeave,
 				slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
 			});
+
+
 		});
 	</script>
 
 </head>
 <body>
 	
-<div class="section active" id="section0"><h1>Section</h1></div>
-<div class="section" id="section1">
-    <div class="slide active"><div class="wrap"><h1>Hello fullPage.js</h1></div></div>
-    <div class="slide"><h1>This is an awesome plugin</h1></div>
-    <div class="slide"><h1>Which enables you to create awesome websites</h1></div>
-    <div class="slide"><h1>In the most simple way ever</h1></div>
+<div class="section active" id="section0">
+	<h1>Benvenuto</h1>
+	<h2 class="footer">Scorri verso il basso per iniziare il tuo viaggio
+		<div class="arrow-down"><IMG SRC="img/down.png"></div>
+	</h2>
 </div>
-<div class="section" id="section2"><h1>Just testing it</h1></div>
-<div class="section" id="section3"><h1>Looks good</h1></div>
+
+<div class="section" id="cities">
+    <div class="slide active trento"><div class="wrap"><h1>Trento</h1></div></div>
+    <div class="slide roma"><h1>Roma</h1></div>
+    <div class="slide venezia"><h1>Venezia</h1></div>
+    <div class="slide milano"><h1>Milano</h1></div>
+    <div class="slide milano"><h1>Napoli</h1></div>
+</div>
+
+<div class="section" id="city-intro"><h1>Immagina... (video)</h1></div>
+
+<div class="section" id="situation">
+    <div class="slide active cena"><h1>Cena</h1></div>
+    <div class="slide aperitivo"><h1>Aperitivo</h1></div>
+    <div class="slide festa"><h1>Festa</h1></div>
+</div>
 
 
 </body>
