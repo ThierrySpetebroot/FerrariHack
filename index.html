@@ -4,9 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
 	<title>Ferrari</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple" />
-	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full" />
 	<meta name="Resource-type" content="Document" />
 
 	
@@ -19,107 +16,7 @@
 		</script>
 	<![endif]-->
 		
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
-	
-	<script type="text/javascript" src="jquery.fullPage.js"></script>
-	<script type="text/javascript">
-		var cities = ["Trento", "Roma", "Venezia", "Milano", "Napoli"];
-
-		var currentSectionIndex = 0;
-		var currentCity = "Trento";
-		var currentCityIndex = 0;
-		var currentSituation = "Cena";
-
-		var setCity = function (city) {
-			switch(city) {
-				case "Roma": {
-					// Imposta slider Roma
-					$('#city-intro').html("<h1>Benvenuto a Roma (video)</h1>");
-
-					$('#situation .cena').html("<h1>Cena Romantica</h1>");
-					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
-					$('#situation .festa').html("<h1>Festa</h1>");
-					break;
-				}
-				case "Trento": {
-					// Imposta slider Roma
-					$('#city-intro').html("<h1>Benvenuto a Trento (video)</h1>");
-
-					$('#situation .cena').html("<h1>Cena Romantica</h1>");
-					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
-					$('#situation .festa').html("<h1>Festa</h1>");
-					break;
-				}
-				case "Venezia": {
-					// Imposta slider Roma
-					$('#city-intro').html("<h1>Benvenuto a Venezia (video)</h1>");
-
-					$('#situation .cena').html("<h1>Cena Romantica</h1>");
-					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
-					$('#situation .festa').html("<h1>Festa</h1>");
-					break;
-				}
-				case "Milano": {
-					// Imposta slider Roma
-					$('#city-intro').html("<h1>Benvenuto a Milano (video)</h1>");
-
-					$('#situation .cena').html("<h1>Cena Romantica</h1>");
-					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
-					$('#situation .festa').html("<h1>Festa</h1>");
-					break;
-				}
-				case "Napoli": {
-					// Imposta slider Roma
-					$('#city-intro').html("<h1>Benvenuto a Napoli (video)</h1>");
-
-					$('#situation .cena').html("<h1>Cena Romantica</h1>");
-					$('#situation .aperitivo').html("<h1>Aperitivo</h1>");
-					$('#situation .festa').html("<h1>Festa</h1>");
-					break;
-				}
-			}
-		}
-
-		// leave section handler
-		var onSectionLeave = function(index, direction) {
-			if(direction == 'down')
-				currentSectionIndex++;
-				switch(index) {
-					case 2:
-						// imposta città selezionata
-						setCity(currentCity);
-						break;
-				}
-			if(direction == 'up') {
-				currentSectionIndex--;
-			}
-		}
-
-		var onSlideLeave = function(anchorLink, index, slideIndex, direction) {
-			// TODO switch per (section) index
-			if(currentSectionIndex === 1) {
-				// city slider
-				if(direction === "right")
-					currentCityIndex++;
-				if(direction === "left")
-					currentCityIndex--;
-				
-				currentCity = cities[currentCityIndex % cities.length];
-			}
-		}
-
-		$(document).ready(function() {
-			$.fn.fullpage({
-				onLeave: onSectionLeave,
-				onSlideLeave: onSlideLeave,
-				slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
-			});
-
-
-		});
-	</script>
+	<script data-main="js/main" src="js/require.js"></script>
 
 </head>
 <body>
