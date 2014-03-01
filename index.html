@@ -176,10 +176,10 @@
 
 						```
 						<section data-markdown>
-						  ## Markdown support
+							## Markdown support
 
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+							For those of you who like that sort of thing.
+							Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
 						</section>
 						```
 					</script>
@@ -291,18 +291,18 @@ Reveal.addEventListener( 'customevent', function() {
 					<h2>Pretty Code</h2>
 					<pre><code data-trim contenteditable>
 function linkify( selector ) {
-  if( supports3DTransforms ) {
+	if( supports3DTransforms ) {
 
-    var nodes = document.querySelectorAll( selector );
+		var nodes = document.querySelectorAll( selector );
 
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
+		for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+			var node = nodes[i];
 
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
+			if( !node.className ) {
+				node.className += ' roll';
+			}
+		}
+	}
 }
 					</code></pre>
 					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
@@ -418,11 +418,61 @@ function linkify( selector ) {
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
+
+			// Dynaic Slide Remove / Append
+			Reveal.addEventListener( 'ready', function( event ) {
+				Reveal.add = function( content = '',index = -1 ){ 
+						dom = {},
+
+						dom.slides = document.querySelector( '.reveal .slides' );
+						var newSlide = document.createElement( 'section' );
+						if( index === -1 ) { //adding slide to end
+								newSlide.classList.add( 'future' );
+								dom.slides.appendChild(newSlide);
+								document.querySelector( '.navigate-right' ).classList.add( 'enabled' ); //just enable it, even if it is
+						} else if( index > Reveal.getIndices().h ) {
+								newSlide.classList.add( 'future' );
+								dom.slides.insertBefore(newSlide,dom.slides.querySelectorAll('section:nth-child('+(index+1)+')')[0]);
+						} else if( index <= Reveal.getIndices().h ) {
+								newSlide.classList.add( 'past' );
+								dom.slides.insertBefore(newSlide,dom.slides.querySelectorAll('section:nth-child('+(index+1)+')')[0]);
+								Reveal.next();
+						}
+						newSlide.innerHTML = content;
+				};
+				Reveal.remove = function( index = -1 ){ 
+						dom = {},
+
+						dom.wrapper = document.querySelector( '.reveal' );
+						dom.slides = document.querySelector( '.reveal .slides' );
+						var target = (dom.wrapper.querySelectorAll('.slides > section:nth-child('+(index+1)+')')[0]) ? dom.wrapper.querySelectorAll('.slides > section:nth-child('+(index+1)+')')[0] : false;
+
+						if( index === -1 ) {
+								if (Reveal.isLastSlide()) Reveal.prev();
+								dom.slides.removeChild(dom.wrapper.querySelectorAll('.slides > section')[dom.wrapper.querySelectorAll('.slides > section').length-1]);
+								if (Reveal.isLastSlide()) document.querySelector( '.navigate-right' ).classList.remove( 'enabled' );
+						} else if( index > Reveal.getIndices().h && target ) {
+								dom.slides.removeChild(target);
+								if (Reveal.getIndices().h == dom.wrapper.querySelectorAll('.slides > section').length-1) document.querySelector( '.navigate-right' ).classList.remove( 'enabled' );
+						} else if( index < Reveal.getIndices().h && target ) {
+								dom.slides.removeChild(target);
+								location.hash = '/'+parseInt(Reveal.getIndices().h-1);
+						} else if( index == Reveal.getIndices().h && target ) {
+								if (index == 0) {
+										Reveal.next();
+										document.querySelector( '.navigate-left' ).classList.remove( 'enabled' );
+								} else Reveal.prev();
+								dom.slides.removeChild(target);
+								if( dom.wrapper.querySelectorAll('.slides > section').length == index) document.querySelector( '.navigate-right' ).classList.remove( 'enabled' );
+						}
+				};
+			} );
+
 			var prevVrIndex = 0;
 			var prevHrIndex = 0;
 			Reveal.addEventListener('slidechanged', function(event){
 				
-				console.log(prevHrIndex)
+				// switch to first slide (section 2 to 3 transition)
 				if(prevHrIndex === 2 && event.indexh === 3)
 					Reveal.slide(3,0);
 				
