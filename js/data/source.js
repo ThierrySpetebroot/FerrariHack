@@ -32,8 +32,8 @@ define([], function() {
         }
       ]
     }, {
-      name: "Milano",
-      description: "Benvenuto a Milano",
+      name: "Venezia",
+      description: "Benvenuto a Venezia",
       situations: [
         {
           name: "Cena",
@@ -47,8 +47,8 @@ define([], function() {
         }
       ]
     }, {
-      name: "Venezia",
-      description: "Benvenuto a Venezia",
+      name: "Milano",
+      description: "Benvenuto a Milano",
       situations: [
         {
           name: "Cena",
