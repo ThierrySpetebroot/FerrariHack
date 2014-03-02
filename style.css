@@ -82,8 +82,20 @@ h2.footer{
 
 #cities .milano {
 	background-image: url('img/milano.jpg');
+	background-size: cover;
 }
 
 #cities .venezia {
 	background-image: url('img/venezia.jpg');
+	background-size: cover;
+}
+
+#cities .trento {
+	background-image: url('img/trento.jpg');
+	background-size: cover;
+}
+
+#cities .napoli {
+	background-image: url('img/napoli.jpg');
+	background-size: cover;
 }

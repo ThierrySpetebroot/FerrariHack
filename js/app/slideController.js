@@ -14,10 +14,10 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
     if (direction === 'down') {
       currentSectionIndex++;
       switch (index) {
-        case 2:
+        case 3:
           this.setCity(data[currentCityIndex]);
           break;
-        case 4:
+        case 5:
           this.setSituation(data[currentCityIndex].situations[currentSituationIndex]);
       }
     }
@@ -27,7 +27,7 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
   };
   this.onSlideLeave = function(anchorLink, index, slideIndex, direction) {
     switch (index) {
-      case 2:
+      case 3:
         if (direction === "right") {
           currentCityIndex++;
         }
@@ -36,7 +36,7 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
         }
         currentCityIndex = currentCityIndex % data.length;
         break;
-      case 4:
+      case 5:
         if (direction === "right") {
           currentSituationIndex++;
         }

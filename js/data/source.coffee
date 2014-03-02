@@ -3,7 +3,7 @@ define [], ->
 		{
 			name: "Trento",
 			description: "Benvenuto a Trento",
-			situations: [
+			lunch: [
 				{
 					name: "Cena",
 					description: "Cena in Famiglia"
@@ -16,23 +16,47 @@ define [], ->
 					name: "Festa",
 					description: "Festa tutta la notte"
 				}
+			],
+			situations: [
+				{
+					name: "Coming Soon",
+					description: "Coming Soon"
+				},
+				{
+					name: "Coming Soon",
+					description: "Coming Soon"
+				},
+				{
+					name: "Coming Soon",
+					description: "Coming Soon"
+				}
 			]
 		},
 		{
 			name: "Roma",
 			description: "La magia di Roma",
-			situations: [
+			lunch: [
 				{
 					name: "Cena",
-					description: "Cena romantica"
+					description: "Cena in Famiglia"
 				},
 				{
 					name: "Aperitivo",
-					description: "Aperitivo al Colosseo"
+					description: "Aperitivo con gli amici"
 				},
 				{
 					name: "Festa",
-					description: "Concerto ai Fori Imperiali"
+					description: "Festa tutta la notte"
+				}
+			],
+			situations: [
+				{
+					name: "Un Giro in Vespa",
+					description: "Vivi le emozioni dei film"
+				},
+				{
+					name: "Drive an italian supercar",
+					description: "Vivi il sogno a tutta velocità"
 				}
 			]
 		},
