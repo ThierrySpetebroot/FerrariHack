@@ -5,6 +5,9 @@
 	position: relative;
 }
 
+.tableCell{
+	vertical-align: top;
+}
 .arrow-down img{
 	max-width: 100px;
 }
@@ -125,4 +128,8 @@ h2.footer{
 
 #section2{
 	background-color: #FFF;
+}
+
+#try-taste{
+	background-image: url("img/Schermata4/SfondoAnnusa1.png")
 }
