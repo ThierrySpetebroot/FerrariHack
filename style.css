@@ -130,6 +130,10 @@ h2.footer{
 	background-color: #FFF;
 }
 
-#try-taste{
-	background-image: url("img/Schermata4/SfondoAnnusa1.png")
+#try-smell{
+	min-height: 600px;
+	background-image: url("img/Schermata4/SfondoAnnusa1.png");
+	background-repeat : no-repeat;
+	background-position: center;
+	background-size: cover;
 }
