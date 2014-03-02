@@ -6,39 +6,39 @@ define [], ->
 			situations: [
 				{
 					name: "Cena",
-					description: ""
+					description: "Cena in Famiglia"
 				},
 				{
 					name: "Aperitivo",
-					description: ""
+					description: "Aperitivo con gli amici"
 				},
 				{
 					name: "Festa",
-					description: ""
+					description: "Festa tutta la notte"
 				}
 			]
 		},
 		{
 			name: "Roma",
-			description: "Benvenuto a Roma",
+			description: "La magia di Roma",
 			situations: [
 				{
 					name: "Cena",
-					description: ""
+					description: "Cena romantica"
 				},
 				{
 					name: "Aperitivo",
-					description: ""
+					description: "Aperitivo al Colosseo"
 				},
 				{
 					name: "Festa",
-					description: ""
+					description: "Concerto ai Fori Imperiali"
 				}
 			]
 		},
 		{
 			name: "Venezia",
-			description: "Benvenuto a Venezia",
+			description: "Passione a Venezia",
 			situations: [
 				{
 					name: "Cena",

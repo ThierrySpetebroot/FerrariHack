@@ -6,7 +6,9 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
   currentSituationIndex = 0;
   this.setCity = function(city) {
     cityView.template(city);
-    situationView.template(city);
+  };
+  this.setSituation = function(situation) {
+    situationView.template(situation);
   };
   this.onSectionLeave = function(index, direction) {
     if (direction === 'down') {
@@ -14,6 +16,9 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
       switch (index) {
         case 2:
           this.setCity(data[currentCityIndex]);
+          break;
+        case 4:
+          this.setSituation(data[currentCityIndex].situations[currentSituationIndex]);
       }
     }
     if (direction === 'up') {
@@ -21,15 +26,25 @@ define(['data/source', 'cityView', 'situationView', 'lib/jquery'], function(data
     }
   };
   this.onSlideLeave = function(anchorLink, index, slideIndex, direction) {
-    if (currentSectionIndex === 1) {
-      if (direction === "right") {
-        currentCityIndex++;
-      }
-      if (direction === "left") {
-        currentCityIndex--;
-      }
+    switch (index) {
+      case 2:
+        if (direction === "right") {
+          currentCityIndex++;
+        }
+        if (direction === "left") {
+          currentCityIndex--;
+        }
+        currentCityIndex = currentCityIndex % data.length;
+        break;
+      case 4:
+        if (direction === "right") {
+          currentSituationIndex++;
+        }
+        if (direction === "left") {
+          currentSituationIndex--;
+        }
+        currentSituationIndex = currentSituationIndex % data[currentCityIndex].situations.length;
     }
-    currentCityIndex = currentCityIndex % data.length;
   };
   return this;
 });

@@ -9,7 +9,7 @@ define(['lib/jquery'], function($) {
       _results = [];
       for (i = _i = 0, _len = _ref.length; _i < _len; i = ++_i) {
         situation = _ref[i];
-        _results.push($('#situations .situation-' + i).html("<h1>" + situation.description + "</h1>"));
+        _results.push($('#situations .situation-' + i).html("<h1>" + situation.name + "</h1>"));
       }
       return _results;
     }

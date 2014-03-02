@@ -4,8 +4,11 @@ define ['data/source', 'cityView', 'situationView', 'lib/jquery'], (data, cityVi
 	currentSituationIndex = 0
 
 	@setCity = (city) ->
-		cityView.template(city)		
-		situationView.template(city)
+		cityView.template(city)
+		return
+
+	@setSituation = (situation) ->
+		situationView.template(situation)
 		return
 
 	# leave section handler
@@ -15,6 +18,7 @@ define ['data/source', 'cityView', 'situationView', 'lib/jquery'], (data, cityVi
 
 			switch index
 				when 2 then @setCity(data[currentCityIndex]) # imposta città selezionata
+				when 4 then @setSituation(data[currentCityIndex].situations[currentSituationIndex]) # imposta città selezionata
 
 		if(direction == 'up')
 			currentSectionIndex--
@@ -22,13 +26,21 @@ define ['data/source', 'cityView', 'situationView', 'lib/jquery'], (data, cityVi
 		return
 
 	@onSlideLeave = (anchorLink, index, slideIndex, direction) ->
-		if(currentSectionIndex == 1) # city slider
-			if direction == "right"
-				currentCityIndex++;
-			if direction == "left"
-				currentCityIndex--
+		switch index
+			when 2 # city slider
+				if direction == "right"
+					currentCityIndex++
+				if direction == "left"
+					currentCityIndex--
 		
-		currentCityIndex = currentCityIndex % data.length
+				currentCityIndex = currentCityIndex % data.length
+			when 4 # situation slider
+				if direction == "right"
+					currentSituationIndex++
+				if direction == "left"
+					currentSituationIndex--
+			
+				currentSituationIndex = currentSituationIndex % data[currentCityIndex].situations.length
 		return
 
 	return @

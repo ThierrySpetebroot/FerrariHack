@@ -5,8 +5,8 @@
 	position: relative;
 }
 
-.arrow-down img;{
-	box-shadow: 1px 1px #333;
+.arrow-down img{
+	max-width: 100px;
 }
 
 h1{
@@ -51,14 +51,37 @@ h1{
 h2.footer{
 	margin-bottom: 0;
 }
+
+.firstPage .footer {
+	position: absolute;
+}
+
 .footer {
 	color: white;
-	position: absolute;
 	bottom: 0;
 	background: rgb(195,40,47);
 	min-width: 100%;
 }
 
-.footer img{
-	max-width: 100px;
+.slider-title {
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.slide .fullscreen {
+	height: 100%;
+}
+
+#cities .roma {
+	background-image: 'img/roma.jpg';
+}
+
+#cities .milano {
+	background-image: 'img/milano.jpg';
+}
+
+#cities .venezia {
+	background-image: 'img/venezia.jpg';
 }
