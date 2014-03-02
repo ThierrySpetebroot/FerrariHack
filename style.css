@@ -87,3 +87,20 @@ h2.footer{
 #cities .venezia {
 	background-image: url('img/venezia.jpg');
 }
+
+.logo{
+	font-family: "Antique";
+	margin-bottom: 0;
+	font-size: 2em;
+}
+
+.slogan{
+	text-transform: uppercase;
+	font-size: 0.5em;
+	font-family:"Copperplate";
+
+}
+
+#section2{
+	background-color: #FFF;
+}
