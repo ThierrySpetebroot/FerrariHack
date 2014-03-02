@@ -82,10 +82,12 @@ h2.footer{
 
 #cities .milano {
 	background-image: url('img/milano.jpg');
+	background-size: cover;
 }
 
 #cities .venezia {
 	background-image: url('img/venezia.jpg');
+<<<<<<< HEAD
 }
 
 .logo{
@@ -103,4 +105,17 @@ h2.footer{
 
 #section2{
 	background-color: #FFF;
+=======
+	background-size: cover;
+}
+
+#cities .trento {
+	background-image: url('img/trento.jpg');
+	background-size: cover;
+}
+
+#cities .napoli {
+	background-image: url('img/napoli.jpg');
+	background-size: cover;
+>>>>>>> FETCH_HEAD
 }
