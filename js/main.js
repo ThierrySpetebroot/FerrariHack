@@ -21,19 +21,12 @@ require(['slideController', 'lib/jquery.fullPage'], function(slideController) {
     anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
   });
 
+  $('.arrow-down').css({position: "relative"});
+
   arrowLoopDown = function() {
-    $('.arrow-down').css({position: "relative"});
-    $('.arrow-down').animate({ top: "+=15" },
-      1000,
-      'swing',
-      function() { arrowLoopUp(); });
-  };
-  arrowLoopUp = function() {
-    $('.arrow-down').css({position: "relative"});
-    $('.arrow-down').animate({ top: "-=15" },
-      1000,
-      'linear',
-      function() { arrowLoopDown(); });
+    $('.arrow-down')
+      .animate({ marginBottom: "10" }, 1000, 'swing')
+      .animate({ marginBottom: "30" }, 1000, 'linear', function() { arrowLoopDown(); });
   };
   arrowLoopDown();
 });
