@@ -68,6 +68,7 @@ h2.footer{
 	top: 0px;
 	text-align: center;
 	width: 100%;
+	z-index: 10;
 }
 
 .slide .fullscreen {
@@ -75,13 +76,14 @@ h2.footer{
 }
 
 #cities .roma {
-	background-image: 'img/roma.jpg';
+	background-image: url('img/roma.jpg');
+	background-size: cover;
 }
 
 #cities .milano {
-	background-image: 'img/milano.jpg';
+	background-image: url('img/milano.jpg');
 }
 
 #cities .venezia {
-	background-image: 'img/venezia.jpg';
+	background-image: url('img/venezia.jpg');
 }
