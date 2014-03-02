@@ -17,7 +17,7 @@ require(['slideController', 'lib/jquery.fullPage'], function(slideController) {
   $.fn.fullpage({
     onLeave: slideController.onSectionLeave,
     onSlideLeave: slideController.onSlideLeave,
-    slidesColor: ['#f2f2f2', '#f2f2f2', '#7BAABE', 'whitesmoke', '#ccddff'],
+    slidesColor: ['#ffffff', '#f2f2f2', '#7BAABE', 'whitesmoke', '#ccddff'],
     anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
   });
 

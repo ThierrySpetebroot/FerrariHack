@@ -87,7 +87,27 @@ h2.footer{
 
 #cities .venezia {
 	background-image: url('img/venezia.jpg');
-<<<<<<< HEAD
+	background-size: cover;
+}
+
+#cities .trento {
+	background-image: url('img/trento.jpg');
+	background-size: cover;
+}
+
+#cities .napoli {
+	background-image: url('img/napoli.jpg');
+	background-size: cover;
+}
+
+#situations .situation-0 {
+	background-image: url('img/vespa.png');
+	background-size: cover;
+}
+
+#situations .situation-1 {
+	background-image: url('img/supercar.png');
+	background-size: cover;
 }
 
 .logo{
@@ -105,17 +125,4 @@ h2.footer{
 
 #section2{
 	background-color: #FFF;
-=======
-	background-size: cover;
-}
-
-#cities .trento {
-	background-image: url('img/trento.jpg');
-	background-size: cover;
-}
-
-#cities .napoli {
-	background-image: url('img/napoli.jpg');
-	background-size: cover;
->>>>>>> FETCH_HEAD
 }
