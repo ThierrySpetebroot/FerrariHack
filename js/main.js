@@ -18,16 +18,16 @@ require(['slideController', 'lib/jquery.fullPage'], function(slideController) {
     onLeave: slideController.onSectionLeave,
     onSlideLeave: slideController.onSlideLeave,
     slidesColor: ['#ffffff', '#f2f2f2', '#7BAABE', 'whitesmoke', '#ccddff'],
-    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage']
   });
 
-  $('.arrow-down').css({position: "relative"});
+  // $('.arrow-down').css({position: "relative"});
 
-  arrowLoopDown = function() {
-    $('.arrow-down')
-      .animate({ marginBottom: "10" }, 1000, 'swing')
-      .animate({ marginBottom: "30" }, 1000, 'linear', function() { arrowLoopDown(); });
-  };
-  arrowLoopDown();
+  // arrowLoopDown = function() {
+  //   $('.arrow-down')
+  //     .animate({ marginBottom: "10" }, 1000, 'swing')
+  //     .animate({ marginBottom: "30" }, 1000, 'linear', function() { arrowLoopDown(); });
+  // };
+  // arrowLoopDown();
 });
 
